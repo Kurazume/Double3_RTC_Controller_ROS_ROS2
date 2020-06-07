@@ -75,7 +75,7 @@ I recommend **WEBSERVER** and **ROSBRIGDE** are the same Ubuntu server on WSL in
 1. Access **GLITCH** from your web browser.   
     [GLITCH project page](https://somber-persistent-line.glitch.me/)
 1. Press "connect" botton on Double screen.   
-1. Access "Call" botton on your browser. You may have to press "Call" bottun several times   
+1. Press "Call" botton on your browser. You may have to press "Call" bottun several times   
 
 ## Control examples
 
