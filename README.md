@@ -4,17 +4,18 @@ This code is for controlling Double 3 by ROS/ROS2 using [rosbridge_suite](http:/
 
 This consists of two pages, the local controller (robot.html) on Double 3 and the remote controller on your web browser (driver.html) such as Firefox.
 
-Signaling server (WSS server) is required. You can use [Glitch project server](https://somber-persistent-line.glitch.me/).
+Signaling server (WSS server) is required. You can use your Glitch project server.
 
 ## Getting Started
 
-- **GLITCH** Signaling server (ex. [somber-persistent-line.glitch.me](wss://somber-persistent-line.glitch.me))
+- **GLITCH** Signaling server (ex. your Glitch project server)
 - **DOUBLE3** IP address of Double 3
 - **WEBSERVER** IP address of local webserver
 - **ROSBRIGDE** IP address of rosbridge server
 
 I recommend **WEBSERVER** and **ROSBRIGDE** are the same Ubuntu server on WSL in Windows 10.
 
+1. [Remix this on Glitch](https://glitch.com/edit/#!/remix/somber-persistent-line). 
 1. Install ROS or ROS2 in **ROSBRIGDE**.
     - **ROS** [ROS Melodic](http://wiki.ros.org/melodic)
     - **ROS2** [ROS 2 Dashing Diademata](https://index.ros.org/doc/ros2/)
