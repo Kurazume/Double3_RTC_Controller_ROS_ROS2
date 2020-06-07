@@ -25,14 +25,14 @@ I recommend **WEBSERVER** and **ROSBRIGDE** are the same Ubuntu server on WSL in
     - **ROS** [roswww](http://wiki.ros.org/roswww ) or python2/python 3
     - **ROS2** python2/python 3
 1. Download public folder to **WEBSERVER**.
-1. Edit “public/robot.html” and “public/index.js”.
-    1. Set **ROSBRIDGE** in robot.html
+1. Edit “public/robot.html” and “public/index.js” in **WEBSERVER**.
+    1. Set **ROSBRIGDE** in robot.html
         ```html
 		<td>
 		<input type="text" id="wsaddress" size="20" maxlength="40" value="ws://[ROSBRIDGE]:9090">
 		</td>
         ```
-    1. Set **ROSBRIDGE** in index.js
+    1. Set **GLITCH** in index.js
         ```java
         var socket = null;
         function connectWebsocket() {
@@ -75,7 +75,7 @@ I recommend **WEBSERVER** and **ROSBRIGDE** are the same Ubuntu server on WSL in
 1. Access **GLITCH** from your web browser.   
     [GLITCH project page](https://somber-persistent-line.glitch.me/)
 1. Press "connect" botton on Double screen.   
-1. Press "Call" botton on your browser. You may have to press "Call" bottun several times   
+1. Press "Call" botton on your browser. You may have to press "Call" bottun several times.   
 
 ## Control examples
 
