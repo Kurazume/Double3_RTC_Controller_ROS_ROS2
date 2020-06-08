@@ -73,8 +73,7 @@ I recommend **WEBSERVER** and **ROSBRIGDE** are the same Ubuntu server on WSL in
     ```
 1. Access Double 3 Monitor (http://**DOUBLE3**:8080/) from your web browser.   
     Set 'http://**WEBSERVER**:8085/d3/public/robot.html' (roswww) or 'http://**WEBSERVER**:8085/robot.html' (python2/3) in "Standby GUI" in Double 3 Monitor and press "GO" button.
-1. Access **GLITCH** from your web browser.   
-    [GLITCH project page](https://somber-persistent-line.glitch.me/)
+1. Access **GLITCH** from your web browser by pressing "Show" and "In a New Window" on the top of your Glitch project page.   
 1. Press "connect" botton on Double screen.   
 1. Press "Call" botton on your browser. You may have to press "Call" bottun several times.   
 
