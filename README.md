@@ -25,7 +25,7 @@ I recommend **WEBSERVER** and **ROSBRIGDE** are the same Ubuntu server on WSL in
 1. Install webserver in **WEBSERVER**.
     - **ROS** [roswww](http://wiki.ros.org/roswww ) or python2/python 3
     - **ROS2** python2/python 3
-1. Download public folder to **WEBSERVER**.
+1. Download "public" folder to **WEBSERVER**.
 1. Edit “public/robot.html” and “public/index.js” in **WEBSERVER**.
     1. Set **ROSBRIGDE** in robot.html
         ```html
